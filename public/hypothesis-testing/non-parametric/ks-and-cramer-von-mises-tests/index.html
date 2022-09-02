@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="ru-ru" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content=" Критерии Колмогорова-Смирнова и Крамера-фон-Мизеса # ">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="Критерии Колмогорова-Смирнова и Крамера-фон-Мизеса" />
+<meta property="og:description" content=" Критерии Колмогорова-Смирнова и Крамера-фон-Мизеса # " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/hypothesis-testing/non-parametric/ks-and-cramer-von-mises-tests/" /><meta property="article:section" content="hypothesis-testing" />
+
+
+
+<title>Критерии Колмогорова-Смирнова и Крамера-фон-Мизеса | Математическая статистика</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.82c5dbd23447cee0b4c2aa3ed08ce0961faa40e1fa370eee4f8c9f02e0d46b5f.css" integrity="sha256-gsXb0jRHzuC0wqo&#43;0Izglh&#43;qQOH6Nw7uT4yfAuDUa18=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.69f07112543960090d5e0971954dae21d29140b82a59cd9905a3b5d3636632c1.js" integrity="sha256-afBxElQ5YAkNXglxlU2uIdKRQLgqWc2ZBaO102NmMsE=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  <style type="text/css">
+	.markdown h1, .markdown h2, .markdown h3, .markdown h4, .markdown h5, .markdown h6 {
+		font-weight: bold;
+		padding-bottom: 8px;
+		margin-bottom: 8px;
+		border-bottom: solid 1px #e1e1e1;
+		color: #44454f;
+	}
+
+	.markdown p {
+		color: #44454f;
+	}
+	.markdown summary:focus {
+		outline: none;
+	}
+</style>
+<link rel="stylesheet" href="/katex/katex.min.css" />
+<script defer src="/katex/katex.min.js"></script>
+<script src="/katex/def.js" ></script>
+<script defer src="/katex/auto-render.min.js" onload="renderMathInElement(document.body, {macros});"></script>
+<style type="text/css">
+	.katex {
+		font-size: 1.25em;
+	}
+</style>
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Математическая статистика</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <span>Введение</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/introduction/experiment/" class="">Статистический эксперимент</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a href="/interval-estimation/" class="">Доверительное оценивание</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/interval-estimation/asymptotic-conf-intervals/" class="">Асимптотические доверительные интервалы</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a href="/non-parametric-estimation/" class="">Непараметрическое оценивание</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/non-parametric-estimation/sample-quantiles-asymptotics/" class="">Асимптотическая нормальность выборочных квантилей</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/non-parametric-estimation/probability-distributions/" class="">Вероятностные распределения</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/non-parametric-estimation/sample-methods/" class="">Выборочные подход</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/non-parametric-estimation/sample-numerical-chars/" class="">Выборочные числовые характеристики</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/non-parametric-estimation/fisher-lemma/" class="">Лемма Фишера</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a href="/point-estimation/" class="">Параметрическое оценивание</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-08719f895623e816cdc4f5b9e210801b" class="toggle"  />
+    <label for="section-08719f895623e816cdc4f5b9e210801b" class="flex justify-between">
+      <a href="/point-estimation/methods/" class="">Методы построения статистических оценок</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/point-estimation/methods/mom/" class="">Метод моментов</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/point-estimation/methods/mle/" class="">Оценки максимального правдоподобия</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/point-estimation/minimax-bayesian-approaches/" class="">Минимаксный и Байесовский подходы</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/point-estimation/problem/" class="">Постановка задачи точечного оценивания</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/point-estimation/r-efficient-stats/" class="">R-эффективные оценки. Информационное неравенство</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/point-estimation/mle-asymptotics/" class="">Асимптотические свойства ОМП</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/point-estimation/unbiased-estimation/" class="">Несмещенное оценивание</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/point-estimation/ancillary-sufficient-statistics/" class="">Подчиненные и достаточные статистики</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/point-estimation/regular-experiment-rao-cramer-inequality/" class="">Регулярный экперимент. Неравенство Рао-Крамера</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a href="/hypothesis-testing/" class="">Проверка гипотез</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hypothesis-testing/lrt/" class="">Критерий отношения правдоподобий</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hypothesis-testing/ump-for-one-sided-hyp/" class="">Наиболее мощный критерий для проверки односторонней гипотезы</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-c5fb984f044fc08e59167831af9031c3" class="toggle" checked />
+    <label for="section-c5fb984f044fc08e59167831af9031c3" class="flex justify-between">
+      <a href="/hypothesis-testing/non-parametric/" class="">Непараметрические критерии</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hypothesis-testing/non-parametric/chi-squared/" class="">Критерий хи-квадрат</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hypothesis-testing/non-parametric/ks-and-cramer-von-mises-tests/" class="active">Критерии Колмогорова-Смирнова и Крамера-фон-Мизеса</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hypothesis-testing/ump/" class="">Проверка простой гипотезы при простой альтернативе</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a href="/regression/" class="">Регрессия</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/regression/contingency-tables/" class="">Анализ таблиц сопряженности</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-81ed3af22aa97d67e348bd1417f17caf" class="toggle"  />
+    <label for="section-81ed3af22aa97d67e348bd1417f17caf" class="flex justify-between">
+      <a role="button" class="">Дисперсионный анализ</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/regression/anova/two-way-anova/" class="">Двухфакторный дисперсионный анализ</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/regression/anova/multi-way-anova/" class="">Многофакторный дисперсионный анализ</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/regression/anova/one-way-anova/" class="">Однофакторный дисперсионный анализ</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/regression/gauss-markov/" class="">ДНО-функции. Теорема Гаусса-Маркова.</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/regression/confidence-estimation/" class="">Доверительное оценивание</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/regression/glm/" class="">Обобщенные линейные модели</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/regression/variance-estimation/" class="">Оценивание мешающего параметра</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/regression/examples/" class="">Примеры регрессионных моделей</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/regression/hypothesis-testing/" class="">Проверка гипотез в модели лин. регрессии</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Критерии Колмогорова-Смирнова и Крамера-фон-Мизеса</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents"></nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="критерии-колмогорова-смирнова-и-крамера-фон-мизеса">
+  Критерии Колмогорова-Смирнова и Крамера-фон-Мизеса
+  <a class="anchor" href="#%d0%ba%d1%80%d0%b8%d1%82%d0%b5%d1%80%d0%b8%d0%b8-%d0%ba%d0%be%d0%bb%d0%bc%d0%be%d0%b3%d0%be%d1%80%d0%be%d0%b2%d0%b0-%d1%81%d0%bc%d0%b8%d1%80%d0%bd%d0%be%d0%b2%d0%b0-%d0%b8-%d0%ba%d1%80%d0%b0%d0%bc%d0%b5%d1%80%d0%b0-%d1%84%d0%be%d0%bd-%d0%bc%d0%b8%d0%b7%d0%b5%d1%81%d0%b0">#</a>
+</h1>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        <hr>
+<hr>
+<div style="text-align: right;">
+	<span><b><i>With gratitude to S.V. Malov by A. Protsvetkina, S. Magnitov</i></b></span><br>
+	<span><b><i>Saint-Petersburg Electrotechnical University "LETI"</i></b></span>
+</div>
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents"></nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

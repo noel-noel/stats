@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>О курсе on Математическая статистика</title>
+    <link>http://example.org/</link>
+    <description>Recent content in О курсе on Математическая статистика</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-ru</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Критерий хи-квадрат</title>
+      <link>http://example.org/hypothesis-testing/non-parametric/chi-squared/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/hypothesis-testing/non-parametric/chi-squared/</guid>
+      <description> Критерий хи-квадрат # </description>
+    </item>
+    
+    <item>
+      <title>Асимптотические доверительные интервалы</title>
+      <link>http://example.org/interval-estimation/asymptotic-conf-intervals/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/interval-estimation/asymptotic-conf-intervals/</guid>
+      <description> Асимптотические доверительные интервалы # </description>
+    </item>
+    
+    <item>
+      <title>Критерии Колмогорова-Смирнова и Крамера-фон-Мизеса</title>
+      <link>http://example.org/hypothesis-testing/non-parametric/ks-and-cramer-von-mises-tests/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/hypothesis-testing/non-parametric/ks-and-cramer-von-mises-tests/</guid>
+      <description> Критерии Колмогорова-Смирнова и Крамера-фон-Мизеса # </description>
+    </item>
+    
+    <item>
+      <title>Метод моментов</title>
+      <link>http://example.org/point-estimation/methods/mom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/point-estimation/methods/mom/</guid>
+      <description> Метод моментов # </description>
+    </item>
+    
+    <item>
+      <title>Минимаксный и Байесовский подходы</title>
+      <link>http://example.org/point-estimation/minimax-bayesian-approaches/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/point-estimation/minimax-bayesian-approaches/</guid>
+      <description> Минимаксный и Байесовский подходы # </description>
+    </item>
+    
+    <item>
+      <title>Оценки максимального правдоподобия</title>
+      <link>http://example.org/point-estimation/methods/mle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/point-estimation/methods/mle/</guid>
+      <description> Оценки максимального правдоподобия # </description>
+    </item>
+    
+    <item>
+      <title>Постановка задачи точечного оценивания</title>
+      <link>http://example.org/point-estimation/problem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/point-estimation/problem/</guid>
+      <description> Постановка задачи точечного оценивания # </description>
+    </item>
+    
+    <item>
+      <title>R-эффективные оценки. Информационное неравенство</title>
+      <link>http://example.org/point-estimation/r-efficient-stats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/point-estimation/r-efficient-stats/</guid>
+      <description> R-эффективные оценки. Информационное неравенство. # </description>
+    </item>
+    
+    <item>
+      <title>Анализ таблиц сопряженности</title>
+      <link>http://example.org/regression/contingency-tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/regression/contingency-tables/</guid>
+      <description> Анализ таблиц сопряженности # </description>
+    </item>
+    
+    <item>
+      <title>Асимптотическая нормальность выборочных квантилей</title>
+      <link>http://example.org/non-parametric-estimation/sample-quantiles-asymptotics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/non-parametric-estimation/sample-quantiles-asymptotics/</guid>
+      <description> Асимптотическая нормальность выборочных квантилей # </description>
+    </item>
+    
+    <item>
+      <title>Асимптотические свойства ОМП</title>
+      <link>http://example.org/point-estimation/mle-asymptotics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/point-estimation/mle-asymptotics/</guid>
+      <description> Асимптотические свойства ОМП # </description>
+    </item>
+    
+    <item>
+      <title>Вероятностные распределения</title>
+      <link>http://example.org/non-parametric-estimation/probability-distributions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/non-parametric-estimation/probability-distributions/</guid>
+      <description> Вероятностные распределения # </description>
+    </item>
+    
+    <item>
+      <title>Выборочные подход</title>
+      <link>http://example.org/non-parametric-estimation/sample-methods/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/non-parametric-estimation/sample-methods/</guid>
+      <description> Выборочный подход # </description>
+    </item>
+    
+    <item>
+      <title>Выборочные числовые характеристики</title>
+      <link>http://example.org/non-parametric-estimation/sample-numerical-chars/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/non-parametric-estimation/sample-numerical-chars/</guid>
+      <description> Выборочные числовые характеристики # </description>
+    </item>
+    
+    <item>
+      <title>Двухфакторный дисперсионный анализ</title>
+      <link>http://example.org/regression/anova/two-way-anova/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/regression/anova/two-way-anova/</guid>
+      <description> Двухфакторный дисперсионный анализ # </description>
+    </item>
+    
+    <item>
+      <title>ДНО-функции. Теорема Гаусса-Маркова.</title>
+      <link>http://example.org/regression/gauss-markov/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/regression/gauss-markov/</guid>
+      <description> ДНО-функции. Теорема Гаусса-Маркова. # </description>
+    </item>
+    
+    <item>
+      <title>Доверительное оценивание</title>
+      <link>http://example.org/regression/confidence-estimation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/regression/confidence-estimation/</guid>
+      <description> Доверительное оценивание # </description>
+    </item>
+    
+    <item>
+      <title>Критерий отношения правдоподобий</title>
+      <link>http://example.org/hypothesis-testing/lrt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/hypothesis-testing/lrt/</guid>
+      <description> Критерий отношения правдоподобий # </description>
+    </item>
+    
+    <item>
+      <title>Лемма Фишера</title>
+      <link>http://example.org/non-parametric-estimation/fisher-lemma/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/non-parametric-estimation/fisher-lemma/</guid>
+      <description> Лемма Фишера # </description>
+    </item>
+    
+    <item>
+      <title>Многофакторный дисперсионный анализ</title>
+      <link>http://example.org/regression/anova/multi-way-anova/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/regression/anova/multi-way-anova/</guid>
+      <description> Многофакторный дисперсионный анализ # </description>
+    </item>
+    
+    <item>
+      <title>Наиболее мощный критерий для проверки односторонней гипотезы</title>
+      <link>http://example.org/hypothesis-testing/ump-for-one-sided-hyp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/hypothesis-testing/ump-for-one-sided-hyp/</guid>
+      <description> Наиболее мощный критерий для проверки односторонней гипотезы # </description>
+    </item>
+    
+    <item>
+      <title>Несмещенное оценивание</title>
+      <link>http://example.org/point-estimation/unbiased-estimation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/point-estimation/unbiased-estimation/</guid>
+      <description> Несмещенное оценивание # </description>
+    </item>
+    
+    <item>
+      <title>Обобщенные линейные модели</title>
+      <link>http://example.org/regression/glm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/regression/glm/</guid>
+      <description> Обобщенные линейные модели # </description>
+    </item>
+    
+    <item>
+      <title>Однофакторный дисперсионный анализ</title>
+      <link>http://example.org/regression/anova/one-way-anova/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/regression/anova/one-way-anova/</guid>
+      <description> Однофакторный дисперсионный анализ # </description>
+    </item>
+    
+    <item>
+      <title>Оценивание мешающего параметра</title>
+      <link>http://example.org/regression/variance-estimation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/regression/variance-estimation/</guid>
+      <description> Оценивание мешающего параметра # </description>
+    </item>
+    
+    <item>
+      <title>Подчиненные и достаточные статистики</title>
+      <link>http://example.org/point-estimation/ancillary-sufficient-statistics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/point-estimation/ancillary-sufficient-statistics/</guid>
+      <description> Подчиненные и достаточные статистики # </description>
+    </item>
+    
+    <item>
+      <title>Примеры регрессионных моделей</title>
+      <link>http://example.org/regression/examples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/regression/examples/</guid>
+      <description> Примеры регрессионных моделей # </description>
+    </item>
+    
+    <item>
+      <title>Проверка гипотез в модели лин. регрессии</title>
+      <link>http://example.org/regression/hypothesis-testing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/regression/hypothesis-testing/</guid>
+      <description> Проверка гипотез в модели лин. регрессии # </description>
+    </item>
+    
+    <item>
+      <title>Проверка простой гипотезы при простой альтернативе</title>
+      <link>http://example.org/hypothesis-testing/ump/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/hypothesis-testing/ump/</guid>
+      <description> Проверка простой гипотезы при простой альтернативе # </description>
+    </item>
+    
+    <item>
+      <title>Регулярный экперимент. Неравенство Рао-Крамера</title>
+      <link>http://example.org/point-estimation/regular-experiment-rao-cramer-inequality/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/point-estimation/regular-experiment-rao-cramer-inequality/</guid>
+      <description> Регулярный экперимент. Неравенство Рао-Крамера. # </description>
+    </item>
+    
+    <item>
+      <title>Статистический эксперимент</title>
+      <link>http://example.org/introduction/experiment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/introduction/experiment/</guid>
+      <description>Статистический эксперимент # Во вводной главе будут ОЧЕНЬ поверхностно обрисованы все темы, которые мы покроем за семестр. Неудивительно, что сходу во все Вы въехать не сможете, останутся вопросы. Это нормально. Мы всё разберем на мелкие детали, Вы ко всему привыкнете, но всему свое время, иначе эта лекция будет километровой.
+Мой совет:
+Кровь из носу надо въехать в идею параметризации. Во всем, что касается статистик, задач, асимптотики &amp;ndash; следите за логической цепочкой, большего не надо.</description>
+    </item>
+    
+  </channel>
+</rss>

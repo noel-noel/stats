@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Регрессия on Математическая статистика</title>
+    <link>http://example.org/regression/</link>
+    <description>Recent content in Регрессия on Математическая статистика</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-ru</language><atom:link href="http://example.org/regression/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Анализ таблиц сопряженности</title>
+      <link>http://example.org/regression/contingency-tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/regression/contingency-tables/</guid>
+      <description> Анализ таблиц сопряженности # </description>
+    </item>
+    
+    <item>
+      <title>ДНО-функции. Теорема Гаусса-Маркова.</title>
+      <link>http://example.org/regression/gauss-markov/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/regression/gauss-markov/</guid>
+      <description> ДНО-функции. Теорема Гаусса-Маркова. # </description>
+    </item>
+    
+    <item>
+      <title>Доверительное оценивание</title>
+      <link>http://example.org/regression/confidence-estimation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/regression/confidence-estimation/</guid>
+      <description> Доверительное оценивание # </description>
+    </item>
+    
+    <item>
+      <title>Обобщенные линейные модели</title>
+      <link>http://example.org/regression/glm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/regression/glm/</guid>
+      <description> Обобщенные линейные модели # </description>
+    </item>
+    
+    <item>
+      <title>Оценивание мешающего параметра</title>
+      <link>http://example.org/regression/variance-estimation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/regression/variance-estimation/</guid>
+      <description> Оценивание мешающего параметра # </description>
+    </item>
+    
+    <item>
+      <title>Примеры регрессионных моделей</title>
+      <link>http://example.org/regression/examples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/regression/examples/</guid>
+      <description> Примеры регрессионных моделей # </description>
+    </item>
+    
+    <item>
+      <title>Проверка гипотез в модели лин. регрессии</title>
+      <link>http://example.org/regression/hypothesis-testing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/regression/hypothesis-testing/</guid>
+      <description> Проверка гипотез в модели лин. регрессии # </description>
+    </item>
+    
+  </channel>
+</rss>

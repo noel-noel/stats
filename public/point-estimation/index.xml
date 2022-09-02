@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Параметрическое оценивание on Математическая статистика</title>
+    <link>http://example.org/point-estimation/</link>
+    <description>Recent content in Параметрическое оценивание on Математическая статистика</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-ru</language><atom:link href="http://example.org/point-estimation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Минимаксный и Байесовский подходы</title>
+      <link>http://example.org/point-estimation/minimax-bayesian-approaches/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/point-estimation/minimax-bayesian-approaches/</guid>
+      <description> Минимаксный и Байесовский подходы # </description>
+    </item>
+    
+    <item>
+      <title>Постановка задачи точечного оценивания</title>
+      <link>http://example.org/point-estimation/problem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/point-estimation/problem/</guid>
+      <description> Постановка задачи точечного оценивания # </description>
+    </item>
+    
+    <item>
+      <title>R-эффективные оценки. Информационное неравенство</title>
+      <link>http://example.org/point-estimation/r-efficient-stats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/point-estimation/r-efficient-stats/</guid>
+      <description> R-эффективные оценки. Информационное неравенство. # </description>
+    </item>
+    
+    <item>
+      <title>Асимптотические свойства ОМП</title>
+      <link>http://example.org/point-estimation/mle-asymptotics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/point-estimation/mle-asymptotics/</guid>
+      <description> Асимптотические свойства ОМП # </description>
+    </item>
+    
+    <item>
+      <title>Несмещенное оценивание</title>
+      <link>http://example.org/point-estimation/unbiased-estimation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/point-estimation/unbiased-estimation/</guid>
+      <description> Несмещенное оценивание # </description>
+    </item>
+    
+    <item>
+      <title>Подчиненные и достаточные статистики</title>
+      <link>http://example.org/point-estimation/ancillary-sufficient-statistics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/point-estimation/ancillary-sufficient-statistics/</guid>
+      <description> Подчиненные и достаточные статистики # </description>
+    </item>
+    
+    <item>
+      <title>Регулярный экперимент. Неравенство Рао-Крамера</title>
+      <link>http://example.org/point-estimation/regular-experiment-rao-cramer-inequality/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/point-estimation/regular-experiment-rao-cramer-inequality/</guid>
+      <description> Регулярный экперимент. Неравенство Рао-Крамера. # </description>
+    </item>
+    
+  </channel>
+</rss>
