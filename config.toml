@@ -1,6 +1,7 @@
-baseURL = 'https://noel-noel.github.io/stats
+baseURL = 'https://noel-noel.github.io/stats'
 languageCode = 'ru-ru'
 title = 'Математическая статистика'
+theme = "hugo-book"
 
 [params]
   BookSection = '*'
